@@ -11,7 +11,7 @@ contract StandardTokenMock is StandardToken {
         _totalSupply = initialBalance;
     }
 
-    function mint(address account, uint256 amount) public {
+    function mint(address account, uint256 amount) public { 
         _mint(account, amount);
     }
 
