@@ -29,7 +29,7 @@ contract('StandardToken', (accounts) => {
         expect(await token.balanceOf(person2)).to.be.bignumber.equal('0');
     });
 
-    it('should throw an error when trying to transfer more than allowed', async () => {
+    it('should throw an error when trying to transfer more than allowed', async () =>  {
         await token.approve(person1, 99, {from: defaultAddress});
 
         await expectRevert(token.transferFrom(defaultAddress, person3, 100, {from: person1}),
