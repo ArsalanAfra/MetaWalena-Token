@@ -20,7 +20,7 @@ contract SmartToken is StandardToken, IBEP677 {
         address from,
         address to,
         uint256 amount
-    ) internal virtual override {
+    ) internal virtual override { 
         super._beforeTokenTransfer(from, to, amount);
         require(validRecipient(to), "WLN: recipient cannot be MetaWalena token address");
     }
