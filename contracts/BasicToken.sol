@@ -138,6 +138,6 @@ contract BasicToken is Context, BEP20Basic {
         address from,
         address to,
         uint256 amount
-    ) internal virtual {}
+    ) internal virtual {} 
 
 }
