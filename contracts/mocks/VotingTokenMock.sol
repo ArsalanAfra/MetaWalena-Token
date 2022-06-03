@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "../VotingToken.sol";
 
 
-contract VotingTokenMock is VotingToken {
+contract VotingTokenMock is VotingToken { 
     constructor(string memory name, string memory symbol) {
         _name = name;
         _symbol = symbol;
