@@ -52,7 +52,7 @@ contract('SmartTokenMock', (accounts) => {
             it('throws an error', async () => {
                 await unspecified(smartToken.transferAndCall(nonBEP677.address, supply, data));
                 
-                expect(await smartToken.balanceOf(nonBEP677.address)).to.be.bignumber.equal('0');
+                expect(await smartToken.balanceOf(nonBEP677.address)).to.be.bignumber.equal('0'); 
             });
         });
     });
