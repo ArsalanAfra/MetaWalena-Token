@@ -6,4 +6,4 @@ contract NotBEP677Compatible {
     constructor()
       public
     {}
-}
+ }
