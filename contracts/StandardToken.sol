@@ -34,7 +34,7 @@ contract StandardToken is BasicToken, IBEP20 {
     }
 
     /**
-     * @dev See {IBEP20-allowance}.
+     * @dev See {IBEP20-allowance}. 
      */
     function allowance(address owner, address spender) public view override returns (uint256) {
         return _allowances[owner][spender];
