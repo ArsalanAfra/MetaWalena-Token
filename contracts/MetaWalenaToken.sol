@@ -7,7 +7,7 @@ import "./Ownable.sol";
 import "./Pausable.sol";
 import "./SafeMath.sol";
 
-contract MetaWalenaToken is VotingToken, Ownable, Pausable {
+contract MetaWalenaToken is VotingToken, Ownable, Pausable { 
     using SafeMath for uint256;
     mapping(address => uint256) private frosted;
 
