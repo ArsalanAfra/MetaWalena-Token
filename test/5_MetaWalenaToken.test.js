@@ -119,7 +119,7 @@ contract('MetaWlenaToken', (accounts) => {
         });
 
         it('does not let you transfer to the contract itself', async () => {
-            await expectRevert(token.transfer(token.address, transferAmount), 
+            await expectRevert(token.transfer(token.address, transferAmount),
             'WLN: recipient cannot be MetaWalena token address');
         });
 
