@@ -29,7 +29,7 @@ interface IBEP20 is BEP20Basic {
      * desired value afterwards:
      * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
      *
-     * Emits an {Approval} event.
+     * Emits an {Approval} event. 
      */
     function approve(address spender, uint256 amount) external returns (bool);
 
