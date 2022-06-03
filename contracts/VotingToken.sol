@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 import "./SmartToken.sol";
 import "./Math.sol"; 
 import "./SafeMath.sol";
-/**
+/** 
  * @dev Extension of BEP20 to support voting and delegation. This version supports token supply up to 2 ** 96 - 1.
  *
  * This extension keeps a history (checkpoints) of each account's vote power. Vote power can be delegated either
