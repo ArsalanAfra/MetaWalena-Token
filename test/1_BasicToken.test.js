@@ -29,7 +29,7 @@ contract('BasicToken', function (accounts) {
                 'BEP20: transfer from the zero address');
             });
 
-            it('when the sender does not have enough balance', async function () {
+            it('when the sender does not have enough balance', async function ()  {
                 const amount = totalSupply.addn(1);
                 await expectRevert(this.token.transferInternal(initialHolder, recipient, amount),
                 'BEP20: transfer amount exceeds balance');             
