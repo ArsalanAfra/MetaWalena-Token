@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "../IBEP20.sol";
 import "../IBEP677Receiver.sol";
 
-contract WLNReceiver is IBEP677Receiver {
+contract WLNReceiver is IBEP677Receiver { 
     bool public fallbackCalled;
     bool public callDataCalled;
     uint public tokensReceived;
