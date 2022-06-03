@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "../SmartToken.sol";
 
 
-contract SmartTokenMock is SmartToken {
+contract SmartTokenMock is SmartToken { 
     string private constant NAME = "Example BEP20 Token";
     string private constant SYMBOL = "BEP677";
 
