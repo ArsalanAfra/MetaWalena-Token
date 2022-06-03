@@ -22,5 +22,5 @@ contract Token677ReceiverMock is IBEP677Receiver {
         tokenSender = sender;
         sentValue = value;
         tokenData = data;
-    }
+     }
 }
