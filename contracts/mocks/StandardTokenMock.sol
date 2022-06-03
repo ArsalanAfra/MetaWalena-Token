@@ -16,6 +16,6 @@ contract StandardTokenMock is StandardToken {
     }
 
     function burn(address account, uint256 amount) public {
-        _burn(account, amount);
+        _burn(account, amount); 
     }
 }
