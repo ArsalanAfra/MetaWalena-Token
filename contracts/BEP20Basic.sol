@@ -8,7 +8,7 @@ pragma solidity ^0.8.0;
  * @dev see https://github.com/ethereum/EIPs/issues/179
  */
 
-interface BEP20Basic {
+interface BEP20Basic { 
     /**
      * @dev Returns the amount of tokens in existence.
      */
