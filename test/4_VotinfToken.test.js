@@ -31,7 +31,7 @@ contract('BEP20Votes', function (accounts) {
         });
         
         it('has given symbol', async function () {
-            expect(await this.token.symbol()).to.be.equal(symbol);
+            expect(await this.token.symbol()).to.be.equal(symbol); 
         });
     });
 
