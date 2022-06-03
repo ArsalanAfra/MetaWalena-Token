@@ -38,7 +38,7 @@ function encodeType(primaryType, types = {}) {
 }
 
 function typeHash(primaryType, types = {}) {
-  return ethUtil.keccak256(encodeType(primaryType, types));
+  return ethUtil.keccak256(encodeType(primaryType, types)); 
 }
 
 function encodeData(primaryType, data, types = {}) {
